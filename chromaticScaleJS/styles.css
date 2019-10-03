@@ -1,0 +1,37 @@
+body {
+    background-color: #031d44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keys {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    width: -webkit-fill-available;
+}
+
+.key {
+    width: 40px;
+    height: 60px;
+    background-color: #2e2e2e;
+    border: #a31621 solid 4px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+kbd {
+    font-size: 32px;
+    color: #eeeeee;
+}
+
+span {
+    font-size: 18px;
+    color: #ccd0d0;
+}
